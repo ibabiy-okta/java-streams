@@ -9,7 +9,7 @@ import java.util.List;
 public class Helper {
     public static List<User> populateUsers() {
         return Arrays.asList(new User("John", "Snow", 17, User.Gender.MALE),
-                new User("Duke", "Nukem", 30, User.Gender.MALE),
+                new User("Duke", "Nukem", 35, User.Gender.MALE),
                 new User("John", "Smith", 40, User.Gender.MALE),
                 new User("Neo", "Anderson", 35, User.Gender.MALE),
                 new User("Will", "Smith", 35, User.Gender.MALE),
@@ -25,7 +25,7 @@ public class Helper {
                 new User("Sylvester", "Stallone", 55, User.Gender.MALE),
                 new User("Bilbo", "Baggins", 60, User.Gender.MALE),
                 new User("David", "Bwoie", 68, User.Gender.MALE),
-                new User("Arnold", "schwarzenegger", 68, User.Gender.MALE),
+                new User("Arnold", "Schwarzenegger", 68, User.Gender.MALE),
                 new User("Chuck", "Norris", 99999, User.Gender.MALE),
                 new User("Morgan", "Freeman", 72, User.Gender.MALE));
     }

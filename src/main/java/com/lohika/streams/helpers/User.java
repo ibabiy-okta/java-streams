@@ -79,6 +79,6 @@ public class User {
 
     @Override
     public String toString() {
-        return String.format("%s %s, %s, age: %d", firstName, lastName, gender.name(), age);
+        return String.format("{%s %s, %s, age: %d}", firstName, lastName, gender.name(), age);
     }
 }

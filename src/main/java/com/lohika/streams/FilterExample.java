@@ -28,6 +28,11 @@ public class FilterExample {
 
         // Find users which lastname starts with B symbol
         users.stream().filter(user -> user.getLastName().startsWith("B")).forEach(System.out::println);
+
+        // Find count of female users
+        long count = users.stream().filter(user -> user.getGender().equals(User.Gender.FEMALE)).count();
+        System.out.println(count);
+
     }
 
 
