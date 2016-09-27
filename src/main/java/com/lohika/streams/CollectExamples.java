@@ -25,8 +25,7 @@ public class CollectExamples {
         // Join strings with separator, prefix and suffix
         String result = users.stream().filter(user -> user.getAge() >= 23)
                             .map(User::getFirstName).limit(5)
-                            .collect(Collectors.joining(" and ", "In USA or Canada", " can buy alcohols."));
-        System.out.println(result);
+                            .collect(Collectors.joining(" and ", "In Ukraine ", " can buy alcohol."));
 
     }
 }
