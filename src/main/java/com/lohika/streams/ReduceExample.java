@@ -14,6 +14,9 @@ public class ReduceExample {
         int sum = numbers.stream().reduce(0, Integer::sum);
         System.out.printf("Sum of all numbers is: %d\n", sum);
 
+        // one more time
+        System.out.printf("Sum of all numbers is: %d\n", sum);
+        
         // Find sum of only even numbers
         sum = numbers.stream().filter(number -> number % 2 == 0).reduce(0, Integer::sum);
         System.out.printf("Sum of even numbers is: %d\n", sum);
