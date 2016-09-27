@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 public class CollectExamples {
 
     public static void main(String[] args) {
+        System.out.println("Hello from another girl.");
         List<User> users = Helper.populateUsers();
 
         // Group users by age:
