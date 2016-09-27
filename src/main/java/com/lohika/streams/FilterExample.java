@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
  */
 public class FilterExample {
     public static void main(String[] args) {
+        System.out.println("Hello from Igor!");
         List<User> users = Helper.populateUsers();
 
         // Filter and print users which are older that 40 years
